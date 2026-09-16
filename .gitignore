@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ===== Ambientes Virtuais =====
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== QR Codes gerados (não versionar) =====
+qrcodes_gerados/
+*.png
+
+# ===== Planilhas enviadas (dados sensíveis do RH) =====
+*.xlsx
+*.xls
+*.csv
+
+# ===== IDEs / Editores =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Sistema Operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
